@@ -1,10 +1,11 @@
 pub mod calc1;
 pub mod calc2;
-
+pub mod calc3;
 #[cfg(test)]
 mod tests {
     use super::calc1::{add, sub};
     use super::calc2::{multiply, rate};
+    use super::calc3::{pot, log};
 
     #[test]
     fn teste_add() {
@@ -63,5 +64,18 @@ mod tests {
     #[test]
     fn teste_rate_fracionario() {
         assert_eq!(rate(105, 2), 52);
+    }
+
+    #[test]
+    fn teste_pot() {
+        assert_eq!(pot(2.0, 3), 8.0);
+        assert_eq!(pot(3.0, 2), 9.0);
+    }
+
+    #[test]
+    fn teste_log() {
+        let tolerance = 1e-9;
+        assert!((log(3.0, 8.0) - 1.892789260714372).abs() < tolerance);
+        assert_eq!(log(3.0, 9.0), 2.0);
     }
 }
