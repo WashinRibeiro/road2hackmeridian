@@ -152,3 +152,22 @@ cargo package
 ```rust
 cargo publish
 ```
+
+## Baixando e usando Bibliotecas
+Integrando a biblioteca publicada no Crates.io
+
+- Criando um novo projeto
+```rust
+cargo new interactive_calculator
+```
+
+```toml
+# Cargo.tml
+[dependencies]
+calculator-washin = "0.1.0"
+```
+
+## Executando um programa
+```rust
+cargo run
+```
