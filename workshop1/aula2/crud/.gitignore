@@ -1,0 +1,24 @@
+# Pasta de build do Cargo
+/target/
+
+# Dependências baixadas
+**/Cargo.lock
+
+# Editor e sistema operacional
+*.rs.bk
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup ou cache
+*.log
+*.bak
+*.old
+
+# Arquivos específicos do Windows
+Thumbs.db
