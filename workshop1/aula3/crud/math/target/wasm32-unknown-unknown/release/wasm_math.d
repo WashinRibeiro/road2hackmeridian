@@ -1,0 +1,1 @@
+C:\Users\washi\OneDrive\Área\ de\ Trabalho\Blockchain\road2hackmeridian\workshop1\aula3\wasm-math\target\wasm32-unknown-unknown\release\wasm_math.wasm: C:\Users\washi\OneDrive\Área\ de\ Trabalho\Blockchain\road2hackmeridian\workshop1\aula3\wasm-math\src\lib.rs
